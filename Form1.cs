@@ -91,7 +91,7 @@ namespace MyFirstProject
             }
             else
             {
-                MessageBox.Show("Add text to continue!", "!!!!!!!!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Add text to continue!", "TARUNGA!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -113,12 +113,12 @@ namespace MyFirstProject
                 }
                 else
                 {
-                    MessageBox.Show("Please enter new text before editing.", "!!!!!!!!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Please enter new text before editing.", "TARUNGA!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             else
             {
-                MessageBox.Show("Please select an item from the list to edit.", "!!!!!!!!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please select an item from the list to edit.", "TARUNGA!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -133,7 +133,7 @@ namespace MyFirstProject
             }
             else
             {
-                MessageBox.Show("select an item to delete.", "!!!!!!!!!!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("select an item to delete.", "TARUNGA!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
